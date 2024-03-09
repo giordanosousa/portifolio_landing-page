@@ -1,0 +1,60 @@
+
+.avatar {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+.sobre {
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.bio span {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.bio strong {
+    color: var(--secondary);
+    font-weight: bold;
+}
+.textos h2, p{
+    margin-bottom: 1rem;
+}
+
+.techs {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.techs h3{
+    margin-bottom: 2rem;
+}
+
+.icones {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.svg {
+    width: 50px;
+    height: 50px;
+}
+
